@@ -11,7 +11,12 @@ config_version=4
 [application]
 
 config/name="Heist Game"
+run/main_scene="res://Temp/TemplateLevel.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/resizable=false
 
 [gui]
 

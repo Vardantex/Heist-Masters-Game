@@ -6,6 +6,7 @@
 [ext_resource path="res://LightMaps/Torch.tscn" type="PackedScene" id=4]
 
 [node name="Player" instance=ExtResource( 2 )]
+collision_mask = 0
 script = ExtResource( 3 )
 
 [node name="Sprite" parent="." index="0"]
@@ -17,3 +18,7 @@ visible = false
 [node name="Torch" parent="." index="2" instance=ExtResource( 4 )]
 position = Vector2( 137, 0 )
 offset = Vector2( 200, 0 )
+
+[node name="LightOccluder2D" parent="." index="3"]
+light_mask = 1
+light_mask = 1
