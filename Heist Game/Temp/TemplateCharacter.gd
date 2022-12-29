@@ -2,8 +2,8 @@ extends KinematicBody2D
 
 
 
-const SPEED = 80 
-const MAX_SPEED = 100
+const SPEED = 100 
+const MAX_SPEED = 300
 #Higher friction feels like on ice
 const FRICTION = .5
 
