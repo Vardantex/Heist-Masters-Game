@@ -37,11 +37,14 @@ Button/styles/pressed = SubResource( 4 )
 
 [node name="NumPad" type="Popup"]
 visible = true
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_right = -724.0
-margin_bottom = -200.0
+anchor_right = 0.293
+anchor_bottom = 0.667
+margin_right = -0.0320129
+margin_bottom = -0.200043
 theme = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 anchor_right = 1.0
