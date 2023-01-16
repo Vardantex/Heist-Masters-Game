@@ -17,3 +17,9 @@ func _on_Door_body_exited(body: Node) -> void:
 		$CanvasLayer/NumPad.hide()
 	
 
+
+
+func _on_NumPad_combination_correct() -> void:
+	open()
+	
+	pass # Replace with function body.
